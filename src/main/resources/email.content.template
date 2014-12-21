@@ -1,0 +1,14 @@
+Hi {{name}},
+
+Your Account number {{accountNo}} mapped with your aardhar card no. {{ uuid }}
+Is {{ status }}. Thank you for your assistance.
+{{ #isPassed }}
+Congrat!!! Now Enjoy the benefits...
+{{ /isPassed }}
+{{ #isFailed }}
+Sorry !!! Please try agian
+{{ /isFailed }}
+
+
+Thank You :-?
+{{sender}}
